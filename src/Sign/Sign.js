@@ -175,7 +175,7 @@ const Sign = () => {
             		<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
             		<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
         		  </div>
-          		<span className="help">or use your email for registration</span>
+          		<span className="help">or use your email</span>
           		<div className="inputs">
 
         		    <div className="input input_">
