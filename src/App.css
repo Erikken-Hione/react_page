@@ -17,12 +17,14 @@ button:hover {
 html,body {
 	height: 100%;
 	margin: 0 auto;
+	overflow: auto;	
 }
 
 body {
-	background: #2F3131;
 	font-family: 'Montserrat', sans-serif;
-	background: linear-gradient(#00293C, #eee);
+	background: linear-gradient(#00293C, #fff);
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 
 #root {
@@ -39,3 +41,8 @@ body {
 	justify-content: center;
 }
 
+@media screen and (max-height:361px ) {
+	.main {
+		margin: 50px auto;
+	}
+}
