@@ -147,9 +147,14 @@ const Sign = () => {
 
   // BACKEND
   const accessToFetch = (el, name) => {
-    el.value = '';
-    el.placeholder = 'Invalid ' + name
-    el.focus();
+    if (el.value) {
+      el.value = '';
+      el.placeholder = 'Invalid ' + name;
+      el.focus();
+    } else {
+      el.focus();
+    }
+
   };
 
   const onSubmitSingUp = () => {

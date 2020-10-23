@@ -43,6 +43,6 @@ body {
 
 @media screen and (max-height:361px ) {
 	.main {
-		margin: 50px auto;
+		margin: 80px auto;
 	}
 }
